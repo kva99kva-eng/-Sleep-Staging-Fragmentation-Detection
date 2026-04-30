@@ -38,7 +38,7 @@ sleep-staging-fragmentation/
 ├── figures/
 └── models/
 
-Notebooks
+## Notebooks
 01_data_loading_and_epoching.ipynb
 
 Loads PSG and hypnogram EDF files, maps annotations to 5 sleep stages, and creates a 30-second epoch-level dataset.
