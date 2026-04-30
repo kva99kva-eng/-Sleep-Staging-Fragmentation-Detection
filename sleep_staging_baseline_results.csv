@@ -1,0 +1,2 @@
+model,macro_f1,weighted_f1,balanced_accuracy,cohen_kappa
+RandomForest_mini,0.46377010684513326,0.6979547229071269,0.5014717547898326,0.45687861014345976
