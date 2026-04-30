@@ -38,12 +38,12 @@ sleep-staging-fragmentation/
 ├── figures/
 └── models/
 
-## Notebooks
+Notebooks
 01_data_loading_and_epoching.ipynb
 
 Loads PSG and hypnogram EDF files, maps annotations to 5 sleep stages, and creates a 30-second epoch-level dataset.
 
-## Main outputs:
+Main outputs:
 
 epoch-level sleep stage labels
 hypnogram visualization
@@ -52,7 +52,7 @@ processed epoch index table
 
 Builds a baseline sleep staging model using EEG spectral features extracted from each epoch.
 
-## Main steps:
+Main steps:
 
 EEG channel selection
 bandpower feature extraction
@@ -63,7 +63,7 @@ confusion matrix and classification report
 
 Computes fragmentation-related sleep metrics from true and predicted stage sequences.
 
-## Main outputs:
+Main outputs:
 
 stage transition counts
 wake intrusions
